@@ -8,7 +8,6 @@ on:
 
 env:
   Nombre: 'Cindy Montoya'
-  
 
 jobs:
   saludo:
@@ -20,4 +19,4 @@ jobs:
 
       - name: Saludo desde develop
         if: github.ref == 'refs/heads/develop'
-      - run: echo "Hola desde develop, soy $Nombre"
+        run: echo "Hola desde develop, soy $Nombre"
