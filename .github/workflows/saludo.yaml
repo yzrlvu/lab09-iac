@@ -1,4 +1,4 @@
-name: Saludo
+name: saludo
 
 on:
   push:
